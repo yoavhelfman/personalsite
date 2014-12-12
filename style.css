@@ -1,0 +1,72 @@
+#wrapper {
+	width: 100%;
+  float: left;
+  margin: 0 0 3em 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 1px solid #ccc; 
+  border-top: 1px solid #ccc; 
+  text-align: center;}
+
+#nav {
+      width: 750px;
+      margin: 0 auto;
+      background-color: #fff; }
+
+#wrapper li {
+      list-style-type: none;
+      display: inline-block;}
+
+#nav li a {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  border-right: 1px solid #ccc; }
+
+h1 {
+  font-size: 1.5em;
+  padding: 1em 8px;
+  color: #333;
+  margin: 0; }
+
+section {
+  text-align: center;
+}
+
+footer{
+  margin-top:5em;
+  border: 2px solid black;
+  border-radius:10px;
+  clear: both;
+  text-align:center;
+}
+
+img {
+  width: 400px !important;
+  height: 370px !important; 
+}
+
+.shift {
+  right: -45px !important;
+}
+
+.shiphtur {
+  position: relative;
+  right: 45px;
+}
+
+h3{
+  text-align: center;
+}
+
+body {
+  background-image: url("img/background.png");
+  font-family: 'Open Sans';
+  src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/K88pR3goAWT7BTt32Z01m1tXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+
+.link{
+  text-decoration: underline;
+}
