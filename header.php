@@ -1,7 +1,7 @@
 	<?php $fName = basename($_SERVER['SCRIPT_NAME']); ?>
 
 	<nav id="nav">
-		<ul id="wrapper">
+		<ul>
           <li id = "bio"><a href="index.php">Bio</a></li>
           <?php if($fName == "index.php")
             { 
@@ -21,7 +21,12 @@
             echo "<style> #poetry { background-color: #D7CCC8; !important } </style>";
           } 
           ?> 
-          <h1>Yoav Helfman Makes a Rudimentary Portfolio</h1>
+          <li id = "resume"><a href="resume.php" style="border-right-width: 0px;">Resume</a></li>
+          <?php if($fName == "resume.php")
+          {
+            echo "<style> #resume { background-color: #D7CCC8; !important } </style>";
+          }
+          ?>
+          <h1>Yoav Helfman's Rudimentary Portfolio</h1>
 		</ul>
-
 	</nav>

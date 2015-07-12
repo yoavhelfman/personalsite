@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-	<title >Hi I'm Yoav</title>
+<head>
+	<title >Yoav's Domain</title>
+  <link rel="icon" href="img/tape.icns" type="image/png"/>
 
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link href="bootstrap.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="bootstrap.css" rel='stylesheet' type='text/css' />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
 
 <meta charset="UTF-8">
 </head>
@@ -15,35 +17,38 @@
 <?php 
 include("header.php"); 
 ?>
+	 <section id = "center">
+    <div>
+      <h4>
+        I am currently a junior studying computer science at the University of Michigan. <br>
+        Creating and consuming art, school, food, friends and binge (ab)using the internet dominate my time nowadays. <br> <br>
+        I'd love to hear from you: yoavhelfman17 'at' gmail.com // yhelfman 'at' umich.edu <br>
+      </h4>
+    </div>
+  </section>
 
-	<div class = "container2">
+  <div class = "container">
+  
 
           <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12 shift">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <img class="img-circle img-responsive img-center" src="img/face.jpg"  alt="Yoav">
-                <h3 class="shiphtur">Guess who</h3>
+                <h3 class="shiphtur">Travel</h3>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-12 shift">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <img class="img-circle img-responsive img-center" src="img/realface.jpg"  alt="Face">
-                <h3 class="shiphtur">Facial</h3>
+                <h3 class="shiphtur">Felines</h3>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-12 shift">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <img class="img-circle img-responsive img-center" src="img/feet.jpg"  alt="Punk">
-                <h3 class="shiphtur">I really enjoy this photo</h3>
+                <h3 class="shiphtur">Companionship</h3>
             </div>
           </div>
 
   </div>
   
-  <section id = "center">
-	<h2>Showcasing some writing on here.</h2>
-	<div>
-		<h4>I am currently a Sophomore studying computer science at the University of Michigan. <br>
-     Creating and consuming art, school, food, friends and binge (ab)using the internet dominate my time nowadays.  </h4>
-	</div>
-	</section>
 
   <?php 
   include("footer.php"); 

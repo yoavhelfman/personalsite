@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html>
-	<title>Hi I'm Yoav</title>
+	<title>Yoav's Domain</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href="bootstrap.css" rel='stylesheet' type='text/css' />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,14 +15,14 @@
 include("header.php"); 
 ?>
 
-<div class = "container2">
+<div class = "container">
         <div class="row">
-            <div class="col-lg-8 col-md-12">
+            <div class="col-lg-10 col-md-12">
             <embed src="Writings/stream.pdf" width="900" height="600">  
             </div>
 
-            <div class="col-lg-4 col-md-12">
-            <h4> Any sort of feedback would be excellent! </h4>
+            <div class="col-lg-2 col-md-12">
+            <h4> Criticism is appreciated </h4>
             <?php
             error_reporting( error_reporting() & ~E_NOTICE );
             $action=$_REQUEST['action'];
